@@ -1,0 +1,74 @@
+[
+  {
+    "question": "What was the total revenue for the reported fiscal year?",
+    "expected_answer": "The total revenue for the fiscal year was reported in the financial statements.",
+    "expected_keywords": ["revenue", "fiscal year", "total"],
+    "document_source": "financial_report.pdf"
+  },
+  {
+    "question": "What are the main risks identified in the company?",
+    "expected_answer": "The company faces market and operational risks as identified in the risk factors section.",
+    "expected_keywords": ["risks", "market", "operational"],
+    "document_source": "financial_report.pdf"
+  },
+  {
+    "question": "What was the net income or loss for the period?",
+    "expected_answer": "The net income or loss is reported in the consolidated statements of operations.",
+    "expected_keywords": ["net income", "loss", "operations"],
+    "document_source": "financial_report.pdf"
+  },
+  {
+    "question": "What are the company's major business segments?",
+    "expected_answer": "The company operates in multiple business segments as described in segment reporting.",
+    "expected_keywords": ["business segments", "segment", "operations"],
+    "document_source": "financial_report.pdf"
+  },
+  {
+    "question": "What is the debt structure of the company?",
+    "expected_answer": "The company's debt structure includes long-term and short-term borrowings.",
+    "expected_keywords": ["debt", "borrowings", "long-term"],
+    "document_source": "financial_report.pdf"
+  },
+  {
+    "question": "What are the key accounting policies used?",
+    "expected_answer": "Key accounting policies include revenue recognition and expense recording methods.",
+    "expected_keywords": ["accounting policies", "revenue recognition", "expense"],
+    "document_source": "financial_report.pdf"
+  },
+  {
+    "question": "What was the cash flow from operating activities?",
+    "expected_answer": "Operating cash flows are detailed in the cash flow statement.",
+    "expected_keywords": ["cash flow", "operating activities"],
+    "document_source": "financial_report.pdf"
+  },
+  {
+    "question": "Who are the major shareholders or investors?",
+    "expected_answer": "Major shareholders are disclosed in the ownership and shareholding section.",
+    "expected_keywords": ["shareholders", "investors", "ownership"],
+    "document_source": "financial_report.pdf"
+  },
+  {
+    "question": "What is the company's dividend policy?",
+    "expected_answer": "Dividend policy and distributions are described in the shareholder returns section.",
+    "expected_keywords": ["dividend", "distribution", "shareholder"],
+    "document_source": "financial_report.pdf"
+  },
+  {
+    "question": "What are the executive compensation details?",
+    "expected_answer": "Executive compensation information is provided in the management compensation section.",
+    "expected_keywords": ["compensation", "executives", "salary"],
+    "document_source": "financial_report.pdf"
+  },
+  {
+    "question": "What capital expenditures did the company make?",
+    "expected_answer": "Capital expenditures are reported in the investing activities section of cash flow.",
+    "expected_keywords": ["capital expenditures", "capex", "investing"],
+    "document_source": "financial_report.pdf"
+  },
+  {
+    "question": "What is the company's liquidity position?",
+    "expected_answer": "Liquidity is assessed through current assets and current liabilities ratios.",
+    "expected_keywords": ["liquidity", "current assets", "current liabilities"],
+    "document_source": "financial_report.pdf"
+  }
+]
