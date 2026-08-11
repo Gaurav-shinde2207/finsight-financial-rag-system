@@ -3,13 +3,15 @@ import streamlit as st
 import json
 import sys
 from pathlib import Path
-from app.utils.config import get_settings
+
 
 
 # Resolve project root (the inner finsight-financial-rag-system-main dir)
 ROOT_DIR = Path(__file__).resolve().parent.parent.parent/"finsight-financial-rag-system"
 if str(ROOT_DIR) not in sys.path:
     sys.path.insert(0, str(ROOT_DIR))
+    
+    from app.utils.config import get_settings
 
 settings = get_settings()
 
