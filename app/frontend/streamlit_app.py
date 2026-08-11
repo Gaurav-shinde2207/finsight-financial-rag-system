@@ -7,7 +7,7 @@ from app.utils.config import get_settings
 
 
 # Resolve project root (the inner finsight-financial-rag-system-main dir)
-ROOT_DIR = Path(__file__).resolve().parent.parent.parent
+ROOT_DIR = Path(__file__).resolve().parent.parent/"app"
 if str(ROOT_DIR) not in sys.path:
     sys.path.insert(0, str(ROOT_DIR))
 
